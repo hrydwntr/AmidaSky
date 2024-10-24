@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
     />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="styles.css" />
     <title>Web Design Mastery | SKYWINGS</title>
-    <!-- SEBELUM BUAT NONTON INI DULU https://www.youtube.com/watch?v=6AxnXWaDL-U -->
   </head>
   <body>
     <nav>
@@ -27,20 +27,21 @@
       <ul class="nav__links" id="nav-links">
         <li><a href="#home">HOME</a></li>
         <li><a href="#about">ABOUT</a></li>
-        <li><a href="tour">TOUR</a></li>
-        <li><a href="package">PACKAGE</a></li>
-        <li><a href="contact">CONTACT</a></li>
+        <li><a href="#tour">TOUR</a></li>
+        <li><a href="#package">PACKAGE</a></li>
+        <li><a href="#contact">CONTACT</a></li>
         <li><a href="#">BOOK TRIP</a></li>
       </ul>
       <div class="nav__btns">
         <button class="btn">BOOK TRIP</button>
       </div>
     </nav>
+
     <header id="home">
       <div class="header__container">
         <div class="header__content">
           <p>ELEVATE YOUR TRAVEL JOURNEY</p>
-          <h1>Experience The Magic Of Fligt!</h1>
+          <h1>Experience The Magic Of Flight!</h1>
           <div class="header__btns">
             <button class="btn">Book A Trip Now</button>
             <a href="#">
@@ -61,11 +62,11 @@
       </p>
       <div class="destination__grid">
         <div class="destination__card">
-          <img src="assets/destination-1.jpg" alt="Destination" />
+          <img src="assets/destination-1.jpg" alt="destination" />
           <div class="destination__card__details">
             <div>
               <h4>Tradition and Futurism</h4>
-              <p>New Your City, USA</p>
+              <p>New York City, USA</p>
             </div>
             <div class="destination__rating">
               <span><i class="ri-star-fill"></i></span>
@@ -103,8 +104,8 @@
     </section>
 
     <section class="section__container journey__container" id="tour">
-      <h2 class="section__header">Journey To the Syk Made Simple!</h2>
-      <p class="selection__description">
+      <h2 class="section__header">Journey To The Sky Made Simple!</h2>
+      <p class="section__description">
         Effortless Planning for Your Next Adventure
       </p>
       <div class="journey__grid">
@@ -113,11 +114,11 @@
             <span><i class="ri-bookmark-3-line"></i></span>
             <h4>Seamless Booking Process</h4>
           </div>
-          <div class="journey__card_content">
+          <div class="journey__card__content">
             <span><i class="ri-bookmark-3-line"></i></span>
             <h4>Easy Reservations, One Click Away</h4>
             <p>
-              From flights and accomodations to activities and transfers,
+              From flights and accommodations to activities and transfers,
               everything you need is available at your fingertips, making travel
               planning effortless.
             </p>
@@ -128,7 +129,7 @@
             <span><i class="ri-landscape-fill"></i></span>
             <h4>Tailored Itineraries</h4>
           </div>
-          <div class="journey__card_content">
+          <div class="journey__card__content">
             <span><i class="ri-landscape-fill"></i></span>
             <h4>Customized Plans Just for You</h4>
             <p>
@@ -143,7 +144,7 @@
             <span><i class="ri-map-2-line"></i></span>
             <h4>Expert Local Insights</h4>
           </div>
-          <div class="journey__card_content">
+          <div class="journey__card__content">
             <span><i class="ri-map-2-line"></i></span>
             <h4>Insider Tips and Recommendations</h4>
             <p>
@@ -154,6 +155,7 @@
         </div>
       </div>
     </section>
+
     <section class="section__container showcase__container" id="package">
       <div class="showcase__image">
         <img src="assets/showcase.jpg" alt="showcase" />
@@ -187,6 +189,7 @@
         </div>
       </div>
     </section>
+
     <section class="section__container banner__container">
       <div class="banner__card">
         <h4>10+</h4>
@@ -201,7 +204,8 @@
         <p>Overall Ratings</p>
       </div>
     </section>
-    <section class="section__description discover__container">
+
+    <section class="section__container discover__container">
       <h2 class="section__header">Discover The World From Above</h2>
       <p class="section__description">
         Experience Breathtaking Views and Unique Perspectives
@@ -212,27 +216,28 @@
           <h4>Aerial Cityscapes</h4>
           <p>
             Witness the architectural marvels and bustling streets from
-            bird's-eye view, offering a unique perspective
+            bird's-eye view, offering a unique perspective.
           </p>
         </div>
         <div class="discover__card">
           <span><i class="ri-ship-line"></i></span>
           <h4>Coastal Wonders</h4>
           <p>
-            Fly over pristine coastlines and turquoise waters, reveling hidden
-            coves and vibrant coral reefs
+            Fly over pristine coastlines and turquoise waters, revealing hidden
+            coves and vibrant coral reefs.
           </p>
         </div>
         <div class="discover__card">
           <span><i class="ri-landscape-line"></i></span>
-          <h4>Historic landmarks</h4>
+          <h4>Historic Landmarks</h4>
           <p>
-            Oberve the grandeur of ancient castles and other significant sites
+            Observe the grandeur of ancient castles and other significant sites
             in a way that ground tours can't offer.
           </p>
         </div>
       </div>
     </section>
+
     <section class="section__container client__container">
       <h2 class="section__header">Loved By Over Thousand Travelers</h2>
       <p class="section__description">
@@ -243,7 +248,7 @@
       <div class="swiper">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
-          <!-- Slider -->
+          <!-- Slides -->
           <div class="swiper-slide">
             <div class="client__card">
               <div class="client__content">
@@ -261,6 +266,13 @@
                   arranged. I can't recommend Skywings enough for anyone looking
                   to elevate their travel experience!
                 </p>
+              </div>
+              <div class="client__details">
+                <img src="assets/client-1.jpg" alt="client" />
+                <div>
+                  <h4>John Adams</h4>
+                  <h5>Travel Blogger</h5>
+                </div>
               </div>
             </div>
           </div>
@@ -286,28 +298,8 @@
                 <img src="assets/client-2.jpg" alt="client" />
                 <div>
                   <h4>Emily Thompson</h4>
-                  <h5>Adventure Enthisiast</h5>
+                  <h5>Adventure Enthusiast</h5>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="client__card">
-              <div class="client__content">
-                <div class="client__rating">
-                  <span><i class="ri-star-fill"></i></span>
-                  <span><i class="ri-star-fill"></i></span>
-                  <span><i class="ri-star-fill"></i></span>
-                  <span><i class="ri-star-fill"></i></span>
-                  <span><i class="ri-star-fill"></i></span>
-                </div>
-                <p>
-                  Skywings has completely transformed my travel experience. From
-                  finding hidden gems in bustling cities to discovering serene
-                  retreats off the beaten path, every detail was thoughtfully
-                  arranged. I can't recommend Skywings enough for anyone looking
-                  to elevate their travel experience!
-                </p>
               </div>
             </div>
           </div>
@@ -380,7 +372,7 @@
             travel platform. Your journey begins here, where seamless planning
             meets unforgettable experiences.
           </p>
-          <u class="footer__socials">
+          <ul class="footer__socials">
             <li>
               <a href="#"><i class="ri-facebook-fill"></i></a>
             </li>
@@ -390,7 +382,7 @@
             <li>
               <a href="#"><i class="ri-youtube-line"></i></a>
             </li>
-          </u>
+          </ul>
         </div>
         <div class="footer__col">
           <h4>Quick Links</h4>
@@ -406,18 +398,17 @@
           <ul class="footer__links">
             <li>
               <a href="#">
-                <span><i class="ri-phone-fill"></i></span> +62 9876543210
+                <span><i class="ri-phone-fill"></i></span> +91 9876543210
               </a>
             </li>
             <li>
               <a href="#">
-                <span><i class="ri-record-mail-line"></i></span> info@Skywings
+                <span><i class="ri-record-mail-line"></i></span> info@skywings
               </a>
             </li>
             <li>
               <a href="#">
-                <span><i class="ri-map-pin-2-fill"></i></span> Harapan Indah,
-                Bekasi
+                <span><i class="ri-map-pin-2-fill"></i></span> New Delhi, India
               </a>
             </li>
           </ul>
@@ -431,8 +422,12 @@
         </div>
       </div>
       <div class="footer__bar">
-        Copyright © 2024 hrydwntr. All rights reserved.
+        Copyright © 2024 Web Design Mastery. All rights reserved.
       </div>
     </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
